@@ -1,6 +1,7 @@
 # Assigment-2
 
 ## Authorization System
+
 module authorization_system(
     input [7:0] username,       // 8-bit kullanıcı adı
     input [7:0] password,       // 8-bit şifre
@@ -22,6 +23,7 @@ module authorization_system(
 endmodule
 
 ## General Management System
+
 module general_management_system(
     input [7:0] user_id,             // 8-bit kullanıcı kimliği
     input [1:0] role,                // 2-bit rol (00: User, 01: Admin, 10: Supervisor)
